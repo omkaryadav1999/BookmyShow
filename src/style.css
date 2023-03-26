@@ -1,0 +1,643 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: transparent;
+}
+
+.parent {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navDiv {
+    width: 100%;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(51, 53, 69);
+}
+
+.navBar {
+    background-color: rgb(51, 53, 69);
+    display: flex;
+    width: 450px;
+}
+
+li {
+    margin: 0 7px 0 7px;
+    list-style: none;
+}
+
+.navlink {
+    color: rgb(204, 204, 204);
+    text-decoration: none;
+}
+
+.navlinks {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* search */
+
+.logoConatiner {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 140px;
+}
+
+.serachConatiner {
+    justify-content: flex-start;
+    padding: 0px;
+    margin: 0px;
+    opacity: 1;
+    cursor: text;
+    width: calc(100% - 134px);
+    max-width: 549px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 4px;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 35px;
+}
+
+.search {
+    width: 100%;
+    height: 35px;
+    border: none
+}
+
+
+/* admin */
+.adminContainer {
+    width: 350px;
+    text-align: center;
+    margin: 150px auto;
+}
+
+.foodForm {
+    margin: 150px auto;
+    width: 400px;
+    text-align: center;
+    background-color: #f5f5fa;
+    border: 1px solid #dfe3e7;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    outline: 0;
+    border-radius: 7px;
+}
+
+/* second nav */
+.parent {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    background: rgb(34, 37, 57);
+}
+
+.secondNavBar {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    white-space: nowrap;
+    padding-left: 150px;
+}
+
+.movieParent {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-left: 70px;
+    justify-content: space-evenly;
+    padding-top: 70px;
+}
+
+.movieContainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 950px;
+}
+
+.bigPoster {
+    width: 100%;
+    height: 400px;
+    background-repeat: round;
+    background-size: cover;
+    background-color: red;
+}
+
+/* thearters */
+
+.theaters_container {
+    width: 1200px;
+    background-color: antiquewhite;
+    height: 600px;
+    margin: auto;
+    padding-top: 25px;
+}
+
+.theaters {
+    padding: 30px 0 30px 0;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+
+}
+
+.btnTime {
+    width: 100px;
+    height: 30px;
+    border: 1px solid green;
+}
+
+
+/* seats */
+
+.seats_container {
+    width: 100%;
+    top: 0;
+    height: 100vh;
+    position: absolute;
+}
+
+.movieHeader {
+    position: relative;
+    zoom: 1;
+    min-width: 320px;
+    padding: 9px 0 9px 30px;
+    background: #1f2533;
+    font-size: 14px;
+    color: #fff;
+    padding-left: 50px;
+}
+
+.theaters {
+    background: #f5f5fa;
+    padding: 5px 0;
+    height: auto;
+    max-height: 74px
+}
+
+.btn_continar {
+    height: 32px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 98
+}
+
+.btnTime {
+    background: #fff;
+    display: inline-block;
+    color: #2dc492;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #2dc492;
+    margin: 0 5px;
+    min-width: 96px;
+    max-width: 120px;
+    height: 38px;
+    float: none;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+
+.btn_continar {
+    padding-right: 15px;
+}
+
+.btnd {
+    width: 15px;
+    height: 15px;
+    /* border-radius: 50%; */
+    margin: 0 15px 0 15px;
+
+}
+
+#notBook {
+    background-color: white;
+}
+
+#Booked {
+    background-color: rgb(252, 196, 45);
+}
+
+#youSelected {
+    background-color: green;
+}
+
+.btnSeats {
+    padding: 5px;
+    border-radius: 50%;
+    border: none;
+    width: 30px;
+    margin: 5px;
+}
+
+.btnSeats:active {
+    background-color: #f84464;
+}
+
+
+
+.seatbtn {
+    padding: 15px;
+    border: 1px solid #1ea83c;
+    border-radius: 2px;
+    color: #1ea83c;
+    text-align: center
+}
+
+
+.screen {
+    margin: 0 0 0 100px;
+    width: 500px;
+    height: 10px;
+    margin-top: 30PX;
+    border: 1px solid black
+}
+
+.tiket {
+    background: #fff;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    text-align: center;
+}
+
+.btntiket {
+    background: #f84464;
+    color: #fff;
+    width: 49%;
+    height: 100%;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, .16);
+    border-radius: 8px;
+    cursor: pointer;
+    min-height: 40px;
+    max-width: 400px;
+    border: none;
+}
+
+.tiketContainer {
+
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    -webkit-box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+    -moz-box-shadow: 1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+    box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+
+}
+
+.settingBtn {
+    background: #f84464;
+    color: #fff;
+    width: 280px;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 0 8px 0;
+}
+
+.icon {
+    font-size: 100px;
+}
+
+.container_Booking {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 160px;
+    padding-right: 30px;
+}
+
+.tiketDetails {
+    margin-top: 10px;
+    width: 400px;
+    height: 85vh;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #dfe3e7;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    outline: 0
+}
+
+.headingBooking {
+    margin: 15px 0 20px 0
+}
+
+.food_container {
+    width: 750px;
+    height: auto;
+    background: #fff;
+    border: 1px solid #dfe3e7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+
+}
+
+.foodCart {
+    border-radius: 5px;
+}
+
+.offer {
+    color: red
+}
+
+.del {
+    background-color: "red";
+    border: none;
+    padding: 5px;
+}
+
+
+.payable {
+    width: 100%;
+    background-color: red;
+    padding: 10px 0 10px 0;
+    margin-Top: 30px;
+    cursor: pointer;
+}
+
+.payable:hover {
+    background-color: red;
+}
+
+.finaleTicketBooked {
+    width: 350px;
+    height: auto;
+    margin: 100px auto;
+    border-radius: 10px;
+    -webkit-box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+    -moz-box-shadow: 1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+    box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+    text-align: center;
+}
+
+
+
+
+/* modal */
+
+
+body.active-modal {
+    overflow-y: hidden;
+}
+
+.btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+}
+
+.modal,
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49, 49, 49, 0.8);
+}
+
+.modal-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #f1f1f1;
+    padding: 14px 28px;
+    border-radius: 3px;
+    width: 500px;
+    height: 350px;
+    text-align: center;
+
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+}
+
+.login {
+    color: rgb(255, 255, 255);
+    background-color: rgb(248, 68, 100);
+    height: 25px;
+    line-height: 25px;
+    width: 67px;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid rgb(248, 68, 100);
+    display: block;
+    margin-left: 30px;
+    margin-top: 3px;
+}
+
+.bi {
+    font-size: 30px;
+    color: white;
+    margin-left: 20px;
+}
+
+
+.transitionDiv {
+    position: fixed;
+    inset: 0px;
+    display: flex;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    align-items: center;
+    overflow: hidden;
+    z-index: 449;
+    transition: all 500ms ease-in-out 0s;
+}
+
+.nexttransition {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(17, 17, 17, 0.4);
+    animation: 0.25s ease-in 0s 1 normal none running bSEuiG;
+}
+
+.divRegister {
+
+    width: 360px;
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    box-sizing: border-box;
+    animation: 0.25s ease-out 0s 1 normal none running foBHIm;
+    position: relative;
+    z-index: 1;
+    overflow-y: scroll;
+}
+
+.Hey {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0px;
+    opacity: 1;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background-color: rgb(46, 49, 71);
+    padding: 10px 16px;
+    width: 100%;
+    min-height: 64px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 25px;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.adminslide {
+    color: red
+}
+
+.secondNavBarx {
+    display: flex;
+    margin-right: 180px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    white-space: nowrap;
+    padding-left: 150px;
+}
+
+
+/* form desgin */
+
+.formContainer {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .5);
+    position: relative;
+}
+
+.formDiv {
+    width: 370px;
+    height: auto;
+    background-color: #f5f5fa;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 7px;
+}
+
+.title {
+    margin: 10px 0 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.infoConts {
+    width: 100%;
+    padding-right: 30px;
+}
+
+input[type=email],
+input[type=password],
+input[type=text],
+input[type=number] {
+    width: 250px;
+    margin: 10px 0 10px 0;
+    padding: 7px;
+}
+
+input[type=submit],
+.registerv {
+    width: 300px;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3b71ca;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+
+/* register form */
+
+.registerContainer {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .5);
+    position: relative;
+}
+
+.registerDiv {
+    width: 400px;
+    height: auto;
+    background-color: #f5f5fa;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 7px;
+}
+
+.adminContainer {
+    width: 500px;
+    background-color: #f5f5fa;
+    text-align: center;
+    border-radius: 7px;
+    margin: 20px auto;
+    height: 100vh;
+}
